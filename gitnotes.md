@@ -10,11 +10,16 @@
 # Git global config
 Instellingen voor alle repositories op je systeem.
 
-- git config --global user.name "voornaam achternaam"
-- git config --global user.email naam@domeinnaam.nl
+~~~~ {#bash1 .bash .numberLines}
+git config --global user.name "voornaam achternaam"
+git config --global user.email naam@domeinnaam.nl
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Initializing a repository in an existing directory
-- git init
+
+~~~~ {#bash2 .bash .numberLines}
+git init
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding untracked files
 - git add filename
