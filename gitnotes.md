@@ -33,6 +33,7 @@ Instellingen voor alle repositories op je systeem.
 
 # Merge somebranch into master branch
 Branch master moet hiervoor wel je huidige branch zijn.
+
 - git merge somebranch
 
 # Connect to github
