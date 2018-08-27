@@ -14,12 +14,23 @@ Instellingen voor alle repositories op je systeem.
 # Committing files
 - git commit -m "beschrijving van je wijzigingen"
 
-# Connect local repository to github repository
+# Make and checkout new branch
+- git checkout -b nameofnewbranch
+
+# Checkout master branch
+- git checkout master
+
+# Merge somebranch into master branch
+Branch master moet hiervoor wel je huidige branch zijn.
+- git merge somebranch
+
+# Connect to github
+## Connect local repository to github repository
 Maak op github een nieuwe repository. Idealiter met dezelfde naam als je lokale
 repository. Kopiëer de github link van je repository. Geef het volgende
-commando:
+commando met achter origin de link van je github repository:
 
-- git remote add origin https://github.com/mindplace/test-repo.git
+- git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
 
-# Push local master to github
+## Push local master to github
 - git push origin master
