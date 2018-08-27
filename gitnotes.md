@@ -47,7 +47,7 @@ Branch master moet hiervoor wel je huidige branch zijn.
 # Connect to github
 ## Connect local repository to github repository
 Maak op github een nieuwe repository. Idealiter met dezelfde naam als je lokale
-repository. Kopiëer de github link van je repository. Geef het volgende
+repository. Kopieer de github link van je repository. Geef het volgende
 commando met achter origin de link van je github repository:
 
 - git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
