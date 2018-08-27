@@ -1,6 +1,9 @@
 % Git aantekeningen
 % Arthur Schut
 % 2018-08-27
+# FIXME
+- alle commando's in bash codeblocks zetten
+- aantekening schrijven dat dit document is opgemaakt in pandoc markdown
 
 # Some git resources
 - https://maryrosecook.com/blog/post/git-from-the-inside-out
