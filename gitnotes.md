@@ -8,8 +8,14 @@ Instellingen voor alle repositories op je systeem.
 - git config --global user.name "voornaam achternaam"
 - git config --global user.email naam@domeinnaam.nl
 
+# Initializing a repository in an existing directory
+- git init
+
 # Adding untracked files
 - git add filename
+
+# Adding multiple untracked files
+- git add .
 
 # Committing files
 - git commit -m "beschrijving van je wijzigingen"
