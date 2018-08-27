@@ -2,6 +2,11 @@
 % Arthur Schut
 % 2018-08-27
 
+# Some git resources
+- https://maryrosecook.com/blog/post/git-from-the-inside-out
+- https://jwiegley.github.io/git-from-the-bottom-up/
+- https://git-scm.com/book/en/v2
+
 # Git global config
 Instellingen voor alle repositories op je systeem.
 
