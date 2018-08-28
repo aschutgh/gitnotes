@@ -21,6 +21,13 @@ git config --global user.email naam@domeinnaam.nl
 git init
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+# Status
+De status van je repository vraag je op met git status.
+
+~~~~ {#git11 .bash .numberLines}
+git status
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 # Adding untracked files
 ~~~~ {#git3 .bash .numberLines}
 git add filename
