@@ -76,4 +76,11 @@ git push origin master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # About
-Dit document is opgemaakt in pandoc markdown.
+
+Dit document is opgemaakt in pandoc markdown. Je kunt het met pandoc
+converteren naar pdf. Voor conversie naar pdf moet je wel \LaTeX geïnstalleerd
+hebben.
+
+~~~~ {#git12 .bash .numberLines}
+pandoc -o gitnotes.pdf gitnotes.md
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
