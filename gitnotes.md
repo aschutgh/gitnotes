@@ -10,46 +10,46 @@
 # Git global config
 Instellingen voor alle repositories op je systeem.
 
-~~~~ {#bash1 .bash .numberLines}
+~~~~ {#git1 .bash .numberLines}
 git config --global user.name "voornaam achternaam"
 git config --global user.email naam@domeinnaam.nl
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Initializing a repository in an existing directory
 
-~~~~ {#bash2 .bash .numberLines}
+~~~~ {#git2 .bash .numberLines}
 git init
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding untracked files
-~~~~ {#bash3 .bash .numberLines}
+~~~~ {#git3 .bash .numberLines}
 git add filename
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding multiple untracked files
-~~~~ {#bash4 .bash .numberLines}
+~~~~ {#git4 .bash .numberLines}
 git add .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Committing files
-~~~~ {#bash5 .bash .numberLines}
+~~~~ {#git5 .bash .numberLines}
 git commit -m "beschrijving van je wijzigingen"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Make and checkout new branch
-~~~~ {#bash6 .bash .numberLines}
+~~~~ {#git6 .bash .numberLines}
 git checkout -b nameofnewbranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Checkout master branch
-~~~~ {#bash7 .bash .numberLines}
+~~~~ {#git7 .bash .numberLines}
 git checkout master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Merge somebranch into master branch
 Branch master moet hiervoor wel je huidige branch zijn.
 
-~~~~ {#bash8 .bash .numberLines}
+~~~~ {#git8 .bash .numberLines}
 git merge somebranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -59,14 +59,14 @@ Maak op github een nieuwe repository. Idealiter met dezelfde naam als je lokale
 repository. Kopieer de github link van je repository. Geef het volgende
 commando met achter origin de link van je github repository:
 
-~~~~ {#bash9 .bash .numberLines}
+~~~~ {#git9 .bash .numberLines}
 git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Push local master to github
-~~~~ {#bash10 .bash .numberLines}
+~~~~ {#git10 .bash .numberLines}
 git push origin master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-# Over dit document
+# About
 Dit document is opgemaakt in pandoc markdown.
