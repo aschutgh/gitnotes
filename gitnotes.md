@@ -1,9 +1,6 @@
 % Git aantekeningen
 % Arthur Schut
 % 2018-08-27
-# FIXME
-- alle commando's in bash codeblocks zetten
-- aantekening schrijven dat dit document is opgemaakt in pandoc markdown
 
 # Some git resources
 - https://maryrosecook.com/blog/post/git-from-the-inside-out
@@ -25,24 +22,36 @@ git init
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding untracked files
-- git add filename
+~~~~ {#bash3 .bash .numberLines}
+git add filename
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding multiple untracked files
-- git add .
+~~~~ {#bash4 .bash .numberLines}
+git add .
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Committing files
-- git commit -m "beschrijving van je wijzigingen"
+~~~~ {#bash5 .bash .numberLines}
+git commit -m "beschrijving van je wijzigingen"
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Make and checkout new branch
-- git checkout -b nameofnewbranch
+~~~~ {#bash6 .bash .numberLines}
+git checkout -b nameofnewbranch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Checkout master branch
-- git checkout master
+~~~~ {#bash7 .bash .numberLines}
+git checkout master
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Merge somebranch into master branch
 Branch master moet hiervoor wel je huidige branch zijn.
 
-- git merge somebranch
+~~~~ {#bash8 .bash .numberLines}
+git merge somebranch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Connect to github
 ## Connect local repository to github repository
@@ -50,7 +59,14 @@ Maak op github een nieuwe repository. Idealiter met dezelfde naam als je lokale
 repository. Kopieer de github link van je repository. Geef het volgende
 commando met achter origin de link van je github repository:
 
-- git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
+~~~~ {#bash9 .bash .numberLines}
+git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Push local master to github
-- git push origin master
+~~~~ {#bash10 .bash .numberLines}
+git push origin master
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Over dit document
+Dit document is opgemaakt in pandoc markdown.
