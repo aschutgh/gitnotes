@@ -29,26 +29,31 @@ git status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding untracked files
+
 ~~~~ {#gitadd .bash .numberLines}
 git add filename
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding multiple untracked files
+
 ~~~~ {#gitaddmultiple .bash .numberLines}
 git add .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Committing files
+
 ~~~~ {#gitcommit .bash .numberLines}
 git commit -m "beschrijving van je wijzigingen"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Make and checkout new branch
+
 ~~~~ {#makebranch .bash .numberLines}
 git checkout -b nameofnewbranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Checkout master branch
+
 ~~~~ {#checkoutmaster .bash .numberLines}
 git checkout master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -61,7 +66,8 @@ git merge somebranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Delete local branch
-~~~~ {#gitdelbranch .bash. numberLines}
+
+~~~~ {#gitdelbranch .bash .numberLines}
 git branch -d localbranchtodelete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -72,12 +78,19 @@ repository. Kopieer de github link van je repository. Geef het volgende
 commando met achter origin de link van je github repository:
 
 ~~~~ {#connectremote .bash .numberLines}
-git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
+git remote add origin https://github.com/accountnaam/naamgitrepo.git
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Push local master to github
+
 ~~~~ {#pushtoremote .bash .numberLines}
 git push origin master
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Get an overview of your commits
+
+~~~~ {#gitlog .bash .numberLines}
+git log
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # About
