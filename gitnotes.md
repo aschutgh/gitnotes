@@ -10,54 +10,59 @@
 # Git global config
 Instellingen voor alle repositories op je systeem.
 
-~~~~ {#git1 .bash .numberLines}
+~~~~ {#globalconfig .bash .numberLines}
 git config --global user.name "voornaam achternaam"
 git config --global user.email naam@domeinnaam.nl
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Initializing a repository in an existing directory
 
-~~~~ {#git2 .bash .numberLines}
+~~~~ {#gitinit .bash .numberLines}
 git init
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Status
 De status van je repository vraag je op met git status.
 
-~~~~ {#git11 .bash .numberLines}
+~~~~ {#gitstatus .bash .numberLines}
 git status
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding untracked files
-~~~~ {#git3 .bash .numberLines}
+~~~~ {#gitadd .bash .numberLines}
 git add filename
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Adding multiple untracked files
-~~~~ {#git4 .bash .numberLines}
+~~~~ {#gitaddmultiple .bash .numberLines}
 git add .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Committing files
-~~~~ {#git5 .bash .numberLines}
+~~~~ {#gitcommit .bash .numberLines}
 git commit -m "beschrijving van je wijzigingen"
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Make and checkout new branch
-~~~~ {#git6 .bash .numberLines}
+~~~~ {#makebranch .bash .numberLines}
 git checkout -b nameofnewbranch
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Checkout master branch
-~~~~ {#git7 .bash .numberLines}
+~~~~ {#checkoutmaster .bash .numberLines}
 git checkout master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Merge somebranch into master branch
 Branch master moet hiervoor wel je huidige branch zijn.
 
-~~~~ {#git8 .bash .numberLines}
+~~~~ {#gitmerge .bash .numberLines}
 git merge somebranch
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+# Delete local branch
+~~~~ {#gitdelbranch .bash. numberLines}
+git branch -d localbranchtodelete
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 # Connect to github
@@ -66,12 +71,12 @@ Maak op github een nieuwe repository. Idealiter met dezelfde naam als je lokale
 repository. Kopieer de github link van je repository. Geef het volgende
 commando met achter origin de link van je github repository:
 
-~~~~ {#git9 .bash .numberLines}
+~~~~ {#connectremote .bash .numberLines}
 git remote add origin https://github.com/accountnaamopgithub/naamvanjegithubrepo.git
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 ## Push local master to github
-~~~~ {#git10 .bash .numberLines}
+~~~~ {#pushtoremote .bash .numberLines}
 git push origin master
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -81,6 +86,6 @@ Dit document is opgemaakt in pandoc markdown. Je kunt het met pandoc
 converteren naar pdf. Voor conversie naar pdf moet je wel \LaTeX geïnstalleerd
 hebben.
 
-~~~~ {#git12 .bash .numberLines}
+~~~~ {#pandocconvert .bash .numberLines}
 pandoc -o gitnotes.pdf gitnotes.md
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
