@@ -93,6 +93,14 @@ git push origin master
 git log
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
+# Git cheat sheets by github.com
+
+Cheat sheets van [github](https://github.com/) zijn hier te vinden:
+
+- [Github Education git cheat sheet](https://education.github.com/git-cheat-sheet-education.pdf)
+- [Github Services git cheat sheet](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
+
+
 # About
 
 Dit document is opgemaakt in pandoc markdown. Je kunt het met pandoc
